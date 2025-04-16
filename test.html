@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Greeter Test</title>
+  <script src="https://unpkg.com/vue@3"></script>
+  <script src="./dist/compiled-greeter.js"></script>
+</head>
+<body>
+  <div id="my-component"></div>
+  <script>
+    Greeter.init('#my-component', {
+      message: '👋 Hello from the host page!'
+    })
+  </script>
+</body>
+</html>
